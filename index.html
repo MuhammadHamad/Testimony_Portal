@@ -21,8 +21,8 @@
       <div class="nav-links">
         <ul>
           <li><a href="#">Activities</a></li>
-          <li><a href="#">Testimony Categories</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#category">Testimony Categories</a></li>
+          <li><a href="#contact">Contact</a></li>
           <li><a href="#">Login</a></li>
         </ul>
       </div>
@@ -41,7 +41,7 @@
       <p>Share your thoughts, experiences, and wisdom with others.</p>
     </section>
 
-    <section class="testimony-categories">
+    <section class="testimony-categories" id="category">
       <h2>Testimony Categories</h2>
       <div class="category-grid">
         <div class="category">
@@ -92,6 +92,41 @@
           <i class="fa fa-video"></i>
           <p>Video</p>
         </div>
+      </div>
+    </section>
+
+    <section id="contact" style="height: 80vh; width: 100%;">
+      <div class="submission-form">
+        <h2>Submit Your Testimony</h2>
+        <form id="testimonyForm">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="category">Category:</label>
+          <select id="category" name="category" required>
+            <option value="Childbirth">Childbirth</option>
+            <option value="Finance">Finance</option>
+            <option value="Investment">Investment</option>
+            <option value="Funding">Funding</option>
+            <option value="Immigration">Immigration</option>
+            <option value="Career">Career</option>
+            <option value="Business">Business</option>
+            <option value="School Fees">School Fees</option>
+            <option value="Audio">Audio</option>
+            <option value="Healing">Healing</option>
+            <option value="Video">Video</option>
+          </select>
+
+          <label for="testimony">Your Testimony:</label>
+          <textarea
+            id="testimony"
+            name="testimony"
+            rows="4"
+            required
+          ></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
       </div>
     </section>
 

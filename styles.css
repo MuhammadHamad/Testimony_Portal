@@ -50,7 +50,7 @@ a:hover {
 }
 
 .testimonial-btn {
-  background-color: #bb5f22;
+  background-color: #ffa500;
   padding: 12px 24px;
   border: none;
   border-radius: 8px;
@@ -62,7 +62,7 @@ a:hover {
 
 .testimonial-btn:hover {
   cursor: pointer;
-  background-color: #d5722e;
+  background-color: #ff7700;
 }
 
 .hero-section {
@@ -460,7 +460,6 @@ a:hover {
 }
 
 
-
 /* Back to Top Button */
 .back-to-top {
   position: fixed;
@@ -481,23 +480,47 @@ a:hover {
   background-color: #ff7700;
 }
 
-/* Tooltip for Social Icons */
-.tooltip {
-  position: absolute;
-  bottom: 45px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #444;
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 0.9em;
-  white-space: nowrap;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.3s;
+
+
+.submission-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 100px auto 0;
+  max-width: 500px;
 }
 
-.social-icons a:hover .tooltip {
-  opacity: 1;
+.submission-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.submission-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.submission-form input,
+.submission-form select,
+.submission-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submission-form button {
+  background-color: #ffa500;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submission-form button:hover {
+  background-color: #ff7700;
 }
