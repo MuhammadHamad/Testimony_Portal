@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -459,14 +460,13 @@ a:hover {
   }
 }
 
-
 /* Back to Top Button */
 .back-to-top {
   position: fixed;
   bottom: 30px;
   right: 30px;
   border-radius: 50%;
-  background-color: #FFA500;
+  background-color: #ffa500;
   color: #fff;
   border: none;
   padding: 10px 15px;
@@ -479,8 +479,6 @@ a:hover {
 .back-to-top:hover {
   background-color: #ff7700;
 }
-
-
 
 .submission-form {
   background-color: #fff;
