@@ -522,3 +522,51 @@ a:hover {
 .submission-form button:hover {
   background-color: #ff7700;
 }
+
+
+
+
+
+
+
+/* Breadcrumbs */
+.breadcrumbs {
+  margin: 20px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* Search Section */
+.search-by-categories {
+  text-align: center;
+  margin: 20px 0;
+}
+.search-by-categories h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+.filters select {
+  font-size: 1rem;
+  padding: 5px;
+}
+
+/* Filter by Date Section */
+.filter-by-date {
+  text-align: center;
+  margin: 30px 0;
+}
+.filter-by-date h3 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.date-range input {
+  padding: 5px;
+  margin: 10px;
+}
+.clear-btn {
+  background-color: #f60;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}

@@ -52,3 +52,15 @@ const submitTestimony = () => {
 
 // Call the function to set up the form submission
 submitTestimony();
+
+
+function navigateToCategory(category) {
+    // Redirect to the testimony category page and pass the category name in the URL
+    window.location.href = `testimony-category.html?category=${category}`;
+
+}
+
+document.querySelector('.clear-btn').addEventListener('click', function () {
+    document.getElementById('fromDate').value = '';
+    document.getElementById('toDate').value = '';
+});
